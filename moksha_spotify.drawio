@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T06:14:57.677Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="sLDNvGS-7GV7PjWBbNfe" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-15T06:26:24.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="B1hn1HNC7txB21NOz32l" version="24.2.5" type="github">
   <diagram name="Page-1" id="ExRqaCatt30p1IcdAsLQ">
     <mxGraphModel dx="1050" dy="1622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -41,25 +41,28 @@
           <mxGeometry x="10" width="710" height="190" as="geometry" />
         </mxCell>
         <mxCell id="BjsdtnPxicf5f_ivqrXc-6" value="&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Verdana&quot;&gt;DATA STORAGE&lt;/font&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="10" y="190" width="710" height="290" as="geometry" />
+          <mxGeometry x="10" y="190" width="710" height="320" as="geometry" />
         </mxCell>
         <mxCell id="Uaap2v4NIkA0buS0Eumb-16" value="&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Verdana&quot;&gt;MUSIC CATALOG MANAGEMENT&lt;/font&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeWidth=2;" parent="BjsdtnPxicf5f_ivqrXc-6" vertex="1">
-          <mxGeometry x="30" y="10" width="320" height="260" as="geometry" />
+          <mxGeometry x="30" y="10" width="320" height="300" as="geometry" />
         </mxCell>
         <mxCell id="Uaap2v4NIkA0buS0Eumb-17" value="&lt;p style=&quot;line-height: 110%;&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 110%;&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Data about Artists&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="Uaap2v4NIkA0buS0Eumb-16" vertex="1">
-          <mxGeometry x="60" y="40" width="90" height="70" as="geometry" />
+          <mxGeometry x="50" y="20" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Uaap2v4NIkA0buS0Eumb-23" value="&lt;p style=&quot;line-height: 110%;&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 110%;&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Data about Albums&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="Uaap2v4NIkA0buS0Eumb-16" vertex="1">
-          <mxGeometry x="170" y="40" width="90" height="70" as="geometry" />
+          <mxGeometry x="180" y="20" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Uaap2v4NIkA0buS0Eumb-24" value="&lt;p style=&quot;line-height: 110%;&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 110%;&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Data about Tracks&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="Uaap2v4NIkA0buS0Eumb-16" vertex="1">
-          <mxGeometry x="220" y="130" width="90" height="70" as="geometry" />
+          <mxGeometry x="190" y="120" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Uaap2v4NIkA0buS0Eumb-25" value="&lt;p style=&quot;line-height: 110%;&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 110%;&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Data about Geners&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="Uaap2v4NIkA0buS0Eumb-16" vertex="1">
-          <mxGeometry x="90" y="130" width="90" height="70" as="geometry" />
+          <mxGeometry x="50" y="130" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BjsdtnPxicf5f_ivqrXc-8" value="&lt;p style=&quot;line-height: 110%;&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 110%;&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Data about Podcast&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="Uaap2v4NIkA0buS0Eumb-16">
+          <mxGeometry x="140" y="200" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Uaap2v4NIkA0buS0Eumb-26" value="&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Verdana&quot;&gt;USER DATA STORAGE&lt;/font&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;direction=west;strokeWidth=2;" parent="BjsdtnPxicf5f_ivqrXc-6" vertex="1">
-          <mxGeometry x="360" y="10" width="340" height="260" as="geometry" />
+          <mxGeometry x="360" y="10" width="340" height="300" as="geometry" />
         </mxCell>
         <mxCell id="BjsdtnPxicf5f_ivqrXc-2" value="&lt;p style=&quot;line-height: 110%;&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 110%;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;User Profiles&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="Uaap2v4NIkA0buS0Eumb-26">
           <mxGeometry x="30" y="20" width="90" height="70" as="geometry" />
@@ -72,6 +75,9 @@
         </mxCell>
         <mxCell id="BjsdtnPxicf5f_ivqrXc-5" value="&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;Creating Playlist&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b style=&quot;font-family: Verdana;&quot;&gt;Editing Playlist&lt;/b&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-family: Verdana;&quot;&gt;Sharing Playlist&lt;/b&gt;&lt;b style=&quot;font-family: Verdana;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-family: Verdana;&quot;&gt;Adding Playlist&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;Removing Playlist&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeWidth=2;" vertex="1" parent="Uaap2v4NIkA0buS0Eumb-26">
           <mxGeometry x="130" y="130" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BjsdtnPxicf5f_ivqrXc-7" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="80" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
