@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T11:00:18.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="m9YIcV1PaH7BjhgV94Pi" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T11:08:58.266Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="KdtUx04wN84Fuz1bXEts" version="24.2.5" type="github">
   <diagram name="Page-1" id="W1_9usUX-t7cK1rEpgE-">
     <mxGraphModel dx="1000" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="k5pazSggRhhLv66Wo6SQ-1" value="&lt;font face=&quot;Verdana&quot;&gt;CRIME PREDICTION&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;startSize=23;swimlaneLine=0;" vertex="1" parent="1">
-          <mxGeometry x="133" y="40" width="585" height="530" as="geometry" />
+          <mxGeometry x="133" y="40" width="527" height="530" as="geometry" />
         </mxCell>
         <mxCell id="k5pazSggRhhLv66Wo6SQ-4" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;ADMIN&lt;/b&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeWidth=2;" vertex="1" parent="k5pazSggRhhLv66Wo6SQ-1">
           <mxGeometry x="370" y="50" width="100" height="450" as="geometry" />
@@ -22,15 +22,69 @@
             <mxPoint x="240.04761904761904" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k5pazSggRhhLv66Wo6SQ-7" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;2. Preprocess Data&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="k5pazSggRhhLv66Wo6SQ-1">
-          <mxGeometry x="0.2012" y="45" width="60" relative="1" as="geometry">
+        <mxCell id="k5pazSggRhhLv66Wo6SQ-7" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;2. Preprocess Data&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="k5pazSggRhhLv66Wo6SQ-1" source="k5pazSggRhhLv66Wo6SQ-3">
+          <mxGeometry x="0.2535" y="29" width="60" relative="1" as="geometry">
             <mxPoint x="247.00034482758628" y="160" as="sourcePoint" />
             <mxPoint x="247.00034482758628" y="180" as="targetPoint" />
             <Array as="points">
               <mxPoint x="286.69" y="160" />
               <mxPoint x="286.69" y="180" />
             </Array>
-            <mxPoint x="40" y="-25" as="offset" />
+            <mxPoint x="20" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k5pazSggRhhLv66Wo6SQ-8" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;3 . Enter Location&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.469;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="k5pazSggRhhLv66Wo6SQ-1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="106.99999999999991" y="222.5" as="sourcePoint" />
+            <mxPoint x="244.1000000000001" y="222.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k5pazSggRhhLv66Wo6SQ-9" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;4 . Enter Time&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.469;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="k5pazSggRhhLv66Wo6SQ-1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="107" y="260" as="sourcePoint" />
+            <mxPoint x="244" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k5pazSggRhhLv66Wo6SQ-12" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;7 . Predict Results&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="k5pazSggRhhLv66Wo6SQ-1">
+          <mxGeometry x="-0.036" y="20" width="60" relative="1" as="geometry">
+            <mxPoint x="243.95" y="390" as="sourcePoint" />
+            <mxPoint x="105.04761904761892" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k5pazSggRhhLv66Wo6SQ-13" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;8 . Review Results&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.469;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="k5pazSggRhhLv66Wo6SQ-1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="107" y="440" as="sourcePoint" />
+            <mxPoint x="244" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k5pazSggRhhLv66Wo6SQ-14" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;9 . visualize Results&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.469;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="k5pazSggRhhLv66Wo6SQ-1">
+          <mxGeometry x="0.0219" y="-20" width="60" relative="1" as="geometry">
+            <mxPoint x="107" y="470" as="sourcePoint" />
+            <mxPoint x="244" y="470" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k5pazSggRhhLv66Wo6SQ-10" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;5 . Apply Classifiers&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="k5pazSggRhhLv66Wo6SQ-3">
+          <mxGeometry x="0.2535" y="29" width="60" relative="1" as="geometry">
+            <mxPoint x="380.0003448275863" y="320" as="sourcePoint" />
+            <mxPoint x="380.0003448275863" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="419.69" y="320" />
+              <mxPoint x="419.69" y="340" />
+            </Array>
+            <mxPoint x="20" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k5pazSggRhhLv66Wo6SQ-11" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;6 . Evaluate Accuracy&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1">
+          <mxGeometry x="0.2535" y="29" width="60" relative="1" as="geometry">
+            <mxPoint x="373" y="370" as="sourcePoint" />
+            <mxPoint x="380.0003448275863" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="419.69" y="370" />
+              <mxPoint x="419.69" y="390" />
+            </Array>
+            <mxPoint x="20" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
