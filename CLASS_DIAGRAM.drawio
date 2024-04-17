@@ -1,9 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T11:09:41.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.5" etag="J2iKWY3tKTklUdZZV7Mz" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T11:24:44.103Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="hxG3tMD2HNjLPDXXduH-" version="24.2.5" type="github">
   <diagram name="Page-1" id="gYmYRhPyiXTG_y8e3rOs">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jkaJu6Uv_PazTBkJIh9_-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;font face=&quot;Verdana&quot;&gt;ADMIN&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+ Data : Str - Float - DateTime&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+ AddRecord()&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+ RemoveRecord()&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+ UpdateRecord()&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jkaJu6Uv_PazTBkJIh9_-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;PREPROCESSING&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+ Data : Str - Float - DateTime&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+ LabelEncoder()&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+ OneHotEncoder()&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="450" y="85" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jkaJu6Uv_PazTBkJIh9_-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 120%;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;USER&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 120%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 120%;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+ Location : Str&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 120%;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+ Date : date&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 120%;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+ Time : time&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid; line-height: 120%;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 120%;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+ EnterLocation()&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 120%;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+ EnterDateTime()&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 120%;&quot;&gt;&lt;b style=&quot;font-family: Verdana;&quot;&gt;+ ViewResults()&lt;/b&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; line-height: 120%;&quot;&gt;&lt;b style=&quot;font-family: Verdana;&quot;&gt;+ VisualizeResults()&lt;/b&gt;&lt;b style=&quot;font-family: Verdana;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="jkaJu6Uv_PazTBkJIh9_-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;SYSTEM&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+ProcessesData : Int&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;DecisionTreeClassifier()&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+ RandomForest()&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;KNNClassifier()&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;EvaluateModel()&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;+&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;EvaluateAccuracy()&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="460" y="340" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="jkaJu6Uv_PazTBkJIh9_-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.455;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.451;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="jkaJu6Uv_PazTBkJIh9_-1" target="jkaJu6Uv_PazTBkJIh9_-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="330" as="sourcePoint" />
+            <mxPoint x="470" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jkaJu6Uv_PazTBkJIh9_-8" value="&lt;font size=&quot;1&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;1**&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;font-family: Verdana; font-size: 13px;&quot;&gt;n&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="jkaJu6Uv_PazTBkJIh9_-7">
+          <mxGeometry x="-0.0764" y="-2" relative="1" as="geometry">
+            <mxPoint x="27" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jkaJu6Uv_PazTBkJIh9_-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=1.009;exitY=0.548;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jkaJu6Uv_PazTBkJIh9_-3" target="jkaJu6Uv_PazTBkJIh9_-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="186" y="209" as="sourcePoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jkaJu6Uv_PazTBkJIh9_-10" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;n**1&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="jkaJu6Uv_PazTBkJIh9_-9">
+          <mxGeometry x="-0.0764" y="-2" relative="1" as="geometry">
+            <mxPoint x="10" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jkaJu6Uv_PazTBkJIh9_-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;entryX=0.452;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jkaJu6Uv_PazTBkJIh9_-2" target="jkaJu6Uv_PazTBkJIh9_-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="280" as="sourcePoint" />
+            <mxPoint x="538" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jkaJu6Uv_PazTBkJIh9_-12" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;n**n&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="jkaJu6Uv_PazTBkJIh9_-11">
+          <mxGeometry x="-0.0764" y="-2" relative="1" as="geometry">
+            <mxPoint x="27" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jkaJu6Uv_PazTBkJIh9_-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jkaJu6Uv_PazTBkJIh9_-1" target="jkaJu6Uv_PazTBkJIh9_-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="312" y="433" as="sourcePoint" />
+            <mxPoint x="480" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jkaJu6Uv_PazTBkJIh9_-15" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;1**n&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="jkaJu6Uv_PazTBkJIh9_-14">
+          <mxGeometry x="-0.0764" y="-2" relative="1" as="geometry">
+            <mxPoint x="10" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
